@@ -10,9 +10,6 @@
     "name": "liuy97",
     "email": "liuy97@gmail.com"
   },
-  "scripts": {
-    "build": "ng-packagr -p package.json"
-  },
   "keywords": [
     "angular",
     "autocomplete",
@@ -26,5 +23,18 @@
   },
   "devDependencies": {
     "ng-packagr": "5.2.0"
+  },
+  "main": "bundles/ng2-input-autocomplete.umd.js",
+  "module": "fesm5/ng2-input-autocomplete.js",
+  "es2015": "fesm2015/ng2-input-autocomplete.js",
+  "esm5": "esm5/ng2-input-autocomplete.js",
+  "esm2015": "esm2015/ng2-input-autocomplete.js",
+  "fesm5": "fesm5/ng2-input-autocomplete.js",
+  "fesm2015": "fesm2015/ng2-input-autocomplete.js",
+  "typings": "ng2-input-autocomplete.d.ts",
+  "metadata": "ng2-input-autocomplete.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
   }
 }
